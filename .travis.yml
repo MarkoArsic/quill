@@ -12,10 +12,4 @@ cache:
 jobs:
   include:
     - env: BROWSER=mac-chrome-latest
-    - env: BROWSER=mac-firefox-latest
     - env: BROWSER=mac-safari-latest
-    - env: BROWSER=windows-chrome-latest
-    - env: BROWSER=windows-firefox-latest
-    - env: BROWSER=windows-edge-latest
-    - env: BROWSER=ios-latest
-    - env: BROWSER=android-latest
