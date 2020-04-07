@@ -6,8 +6,11 @@ script:
 os:
   - linux
 dist: xenial
+env:
+  - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
 cache:
   directories:
+    - dist
     - node_modules
 jobs:
   include:
